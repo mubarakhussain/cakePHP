@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="bootstrap.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger sticky-lg-top ">
+        <a class="navbar-brand ms-2">CakePHP<i style="font-size:10px">Build fast,grow solid</i></a>
+            <ul class="navbar-nav ms-auto">
+                <div class="dropdown">
+                    <button type="button" class="btn text-white dropdown-toggle " data-bs-toggle="dropdown">
+                        Documentation
+                    </button>   
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Link 1</a></li>
+                      <li><a class="dropdown-item" href="#">Link 2</a></li>
+                      <li><a class="dropdown-item" href="#">Link 3</a></li>
+                    </ul>
+                  </div>
+                  <li class="nav-item"><a class="nav-link text-white">Business Solutions</a></li>
+                  <li class="nav-item"><a class="nav-link text-white">Swag</a></li>
+                  <li class="nav-item"><a class="nav-link text-white">Team</a></li>
+                  <div class="dropdown">
+                    <button type="button" class="btn text-white dropdown-toggle " data-bs-toggle="dropdown">
+                        Community
+                    </button>   
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Link 1</a></li>
+                      <li><a class="dropdown-item" href="#">Link 2</a></li>
+                      <li><a class="dropdown-item" href="#">Link 3</a></li>
+                    </ul>
+                  </div>
+                  <div class="dropdown">
+                    <button type="button" class="btn text-white dropdown-toggle " data-bs-toggle="dropdown">
+                         en
+                    </button>   
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Link 1</a></li>
+                      <li><a class="dropdown-item" href="#">Link 2</a></li>
+                      <li><a class="dropdown-item" href="#">Link 3</a></li>
+                    </ul>
+                  </div>
+                  <li class="nav-item bg-dark"><a class="nav-link me-4 ">DONATE</a></li>
+            </ul>
+            
+    </nav>
+    <div class="container ms-auto d-flex">
+        <img class="mt-4" style="position:absolute; opacity:0.6; margin: left 30px; " src="top cup.jpg"  width="900" height="400"> 
+        <h3 style="position:relative;color:red;margin-top: 70px; left: 110px;">New cakePHP 4.4</h3>
+        <h3 style="position:relative; color:red;margin-top: 110px;right: 85px; ">Strawbrerry.</h3>
+        <h3 style="position: relative; color: white; margin-top: 220px; right: 250px;">Cleaner. Faster</h3>
+        <h3 style="position: relative; color: white; margin-top: 260px; right:425px;">Tasty as usual.</h3>
+        <button class="btn btn-light " style="position: relative;  margin-top: 340px; right:670px;">Install 4.4</button>
+        <button class="btn btn-light " style="position: relative;  margin-top: 340px; right:650px;">Docs</button>
+        <button class="btn btn-light " style="position: relative;  margin-top: 340px; right:630px;">API</button>
+    </div> 
+    <div class="container-fluid mt-5">  
+      <div class="row">
+        <div class="col-6">
+          <img src="worker-sitting.jpg"  style="width:600px;height:600px;">
+        </div>
+        <div class="col-6 mt-4">
+          <h1>What's new in version 4.4</h1> 
+          <p>
+          The migration guide has a complete list of what's new in 4.4.0. We recommend you give that page a read when upgrading. A few highlights from 4.4.0 are:
+        </p>
+        <ul>
+          <li> 
+            A new Error and Exception handling framework that is easier to extend and requires less application code to operate</li><br>
+            <li>Controller::viewClasses() was added. This method enables controllers to take control of what content-types they can respond as.</li><br>
+            <li>
+              The QueryExpression::case() builder now supports inferring the type from expressions passed to then() and else() that implement \Cake\Database\TypedResultInterface.
+            </li><br>
+            <li>HttpsEnforcerMiddleware now has an hsts option that allows you to configure the Strict-Transport-Security header.</li><br>
+            <li>bin/cake routes now highlights collisions in route templates.</li><br>
+            <li>The RedisEngine now supports fast deletes with deleteAsync().</li>
+        </ul>
+        <p>While CakePHP 4 contains a number of breaking changes we have prepared an exhaustive migration guide covering all the deprecated and removed features as well as highlighting the shiny new features.</p>
+        <a type="submit" href="" class="btn btn-danger">Learn more</a>
+        <h1>Business Solutions</h1>
+        <p>CakeDC, the commercial entity behind the CakePHP framework, was established by Larry Masters, the founder of CakePHP. CakeDC offers CakePHP development, consultancy, CakePHP training and code review Services. From startups and social networks, to e-commerce and enterprise level applications, CakeDC provides the highest quality CakePHP development available.</p>
+        <a type="submit" class="btn btn-danger">Chat to the top CakePHP developers</a>
+        </div>
+        
+      </div>
+    </div> 
+    <h1 style="text-align: center;" class="mt-5">A recipe to succeed.</h1> 
+    <h3 style="text-align: center;" class="mt-5">Prototype faster, Validate faster, Grow consistently.</h3> 
+    <div class="container-fluid mt-5">
+      <div class="row">
+        <div class="col-3">
+          <div class="card" style="width:250px; margin-left: 140px; text-align: center;">
+            <img class="card-img-top" src="egg.png" alt="Card image"  >
+            <div class="card-body">
+              <h4 class="card-title">Build Quickly</h4>
+              <p class="card-text">Use code generation and scaffolding features to rapidly build prototypes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width:250px; margin-left: 170px; text-align: center;">
+            <img class="card-img-top" src="red1.png" alt="Card image"  >
+            <div class="card-body mt-5">
+              <h4 class="card-title">No Configuration</h4>
+              <p class="card-text">No complicated XML or YAML files. Just setup your database and you're ready to bake.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width:250px; margin-left: 200px; text-align: center;">
+            <img class="card-img-top  " src="red2.png" alt="Card image" >
+            <div class="card-body mt-4">
+              <h4 class="card-title">Friendly License</h4>
+              <p class="card-text">CakePHP is licensed under the MIT license which makes it perfect for use in Commercial applications.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>    
+</body>
+</html>  
